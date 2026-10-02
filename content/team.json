@@ -2,11 +2,13 @@
   {
     "name": "Dr. Aki Härmä",
     "role": "Research Lead",
-    "image": "https://www.ml4biodiversity.org/wp-content/uploads/2026/02/profilepic_square_Aki.jpg"
+    "image": "/images/aki.jpg",
+    "linkedin": "https://www.linkedin.com/in/aharma/"
   },
   {
     "name": "Aysenur Arslan-Dogan",
     "role": "Research Assistant",
-    "image": "https://www.ml4biodiversity.org/wp-content/uploads/2026/02/profilepic_square_Ayse.jpg"
+    "image": "/images/aysenur.jpg",
+    "linkedin": "https://www.linkedin.com/in/ayse-arslan-dogan-952885209/"
   }
 ]
