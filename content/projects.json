@@ -1,0 +1,44 @@
+[
+  {
+    "category": "01 / FRAMEWORK",
+    "title": "Population size estimation",
+    "description": "A statistical framework connecting acoustic activity with population-level inference across different vocalization scenarios.",
+    "status": "In progress",
+    "links": []
+  },
+  {
+    "category": "02 / CHALLENGE",
+    "title": "BioDCASE 2026",
+    "description": "A 2026 bird-counting challenge using real, multi-species zoo aviary recordings. Dataset, baseline, and results are available.",
+    "status": "",
+    "links": [
+      {
+        "label": "Explore the challenge ↗",
+        "url": "/biodcase26_birdcounts/"
+      }
+    ]
+  },
+  {
+    "category": "03 / SPECIES RECOGNITION",
+    "title": "ARIA",
+    "description": "A hybrid BirdNET and PERCH framework for recognizing zoo species in overlapping aviary recordings.",
+    "status": "",
+    "links": [
+      {
+        "label": "Read paper ↗",
+        "url": "https://linklings.s3.amazonaws.com/organizations/WCCI/wcci2026/submissions/stype114/T8mVu-ijcnn_pap3602s2.pdf"
+      },
+      {
+        "label": "GitHub ↗",
+        "url": "https://github.com/ml4biodiversity/aria-inference"
+      }
+    ]
+  },
+  {
+    "category": "04 / CALL STRUCTURE",
+    "title": "Vocalization modeling",
+    "description": "Studying temporal patterns, overlapping calls, and interactions in bird vocal activity.",
+    "status": "In progress",
+    "links": []
+  }
+]

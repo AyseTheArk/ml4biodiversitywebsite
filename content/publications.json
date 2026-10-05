@@ -1,0 +1,51 @@
+[
+  {
+    "label": "BIOSIGNALS 2026 · PAPER AVAILABLE",
+    "title": "Counting without Seeing: Toward Acoustic Population Estimation from Unsupervised Audio Features",
+    "authors": "Aysenur Arslan-Dogan · Aki Härmä",
+    "links": [
+      {
+        "label": "Read paper ↗",
+        "url": "https://www.researchgate.net/publication/401636797_Counting_without_Seeing_Toward_Acoustic_Population_Estimation_from_Unsupervised_Audio_Features"
+      }
+    ]
+  },
+  {
+    "label": "IEEE WCCI 2026 · PAPER AVAILABLE",
+    "title": "ARIA: A Hybrid BirdNET–PERCH Framework for Inventory-Driven Bird Species Recognition in Zoo Aviaries",
+    "authors": "Emre Argın · Bernardo Amado Costa · Aki Härmä · Aysenur Arslan-Dogan",
+    "links": [
+      {
+        "label": "Read paper ↗",
+        "url": "https://linklings.s3.amazonaws.com/organizations/WCCI/wcci2026/submissions/stype114/T8mVu-ijcnn_pap3602s2.pdf"
+      },
+      {
+        "label": "Code ↗",
+        "url": "https://github.com/ml4biodiversity/aria-inference"
+      }
+    ]
+  },
+  {
+    "label": "DCASE WORKSHOP 2026 · ACCEPTED, AWAITING PUBLICATION",
+    "title": "BioDCASE 2026 Challenge on Bird Population Counting from Passive Acoustic Recordings",
+    "authors": "Emre Argın · Aysenur Arslan-Dogan · Aki Härmä",
+    "links": [
+      {
+        "label": "Explore challenge ↗",
+        "url": "/biodcase26_birdcounts/"
+      }
+    ]
+  },
+  {
+    "label": "BNAIC · UNDER REVIEW",
+    "title": "BNAIC submission",
+    "authors": "Title and final publication details will be added after confirmation.",
+    "links": []
+  },
+  {
+    "label": "ICASSP 2027 · UNDER REVIEW",
+    "title": "PaCCL: Partition- and Channel-Consistent Call Counting Learning for Passive Acoustic Monitoring of Pied Avocets",
+    "authors": "Aysenur Arslan-Dogan · Aki Härmä",
+    "links": []
+  }
+]
