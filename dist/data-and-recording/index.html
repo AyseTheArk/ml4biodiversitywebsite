@@ -1,1 +1,93 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Data & recording — ML4Biodiversity</title><meta name="description" content="How ML4Biodiversity records aviary sound and turns it into research data."><link rel="stylesheet" href="/style.css"></head><body><header class="site-header"><a class="brand" href="/" aria-label="ML4Biodiversity home"><span class="brand-mark">◉</span> ML<span class="brand-four">4</span>Biodiversity</a><nav aria-label="Main navigation"><a href="/#research">Research</a><a href="/#initiatives">Initiatives</a><a href="/#publications">Publications</a><a href="/about/">About</a><a class="nav-contact" href="/contact/">Get in touch ↗</a></nav></header><main><section class="detail-hero"><a class="back-link" href="/">← Home</a><p class="eyebrow">FIELDWORK &amp; DATA</p><h1>From aviary sound<br>to research data.</h1><p class="detail-lead">Recorders listen over days. Short audio clips and zoo population records help us test whether models can recognize species and estimate how many birds are present.</p></section><section class="data-process section"><div class="section-heading"><div><p class="eyebrow">HOW IT WORKS</p><h2>One recording, many questions.</h2></div></div><div class="process-grid"><article><span>01</span><h3>Record</h3><p>Autonomous stereo recorders capture the natural soundscape inside or near an aviary, including overlapping calls and environmental noise.</p></article><article><span>02</span><h3>Prepare</h3><p>Long recordings are split into short clips. For BioDCASE Task 6, the released clips are approximately three seconds long at 48 kHz.</p></article><article><span>03</span><h3>Compare</h3><p>Models analyze the audio. Known species inventories and population counts let us compare predictions with zoo records.</p></article></div></section><section class="data-detail"><div class="data-photo"><img src="https://www.ml4biodiversity.org/wp-content/uploads/2026/02/magpie.jpg" alt="Azure-winged magpie on a branch" loading="lazy"></div><div><p class="eyebrow">THE RECORDER</p><h2>Why two microphones?</h2><p>Our published recording setup uses a Frontier Labs BAR-LT autonomous recorder with two microphones. Stereo audio gives us two views of the same acoustic scene, which can support spatial analysis and help assess the consistency of detections.</p><p>Recorders collect sound without needing an observer in the aviary all day. They also capture the hard parts of real monitoring: silence, overlapping birds, visitors, and changing activity across hours.</p><small>Image: Azure-winged magpie. This is a species photo, not a photo of the recorder or an example recording.</small></div></section><section class="section data-download"><p class="eyebrow">PUBLIC DATASET</p><h2>A subset released for BioDCASE</h2><p>BioDCASE 2026 makes a curated subset of our wider zoo recording collection available for the bird counting challenge. The full collection is larger and is not represented by this download.</p><div class="publication-links"><a href="https://biodcase.github.io/challenge2026/task6">Official Task 6 page ↗</a><a href="https://huggingface.co/datasets/Emreargin/BioDCASE2026_Bird_Counting">Download the dataset ↗</a><a href="/biodcase26_birdcounts/">Challenge overview ↗</a></div></section></main><footer><div><a class="brand" href="/">ML<span class="brand-four">4</span>Biodiversity</a><p>Department of Advanced Computing Sciences<br>Maastricht University · The Netherlands</p></div><div><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/#research">Research</a></div><small>© 2026 ML4Biodiversity</small></footer></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Data & recording — ML4Biodiversity</title>
+  <meta name="description" content="How ML4Biodiversity records aviary sound and turns it into research data.">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="ML4Biodiversity home">
+      <span class="brand-mark">◉</span> ML<span class="brand-four">4</span>Biodiversity
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="/#research">Research</a>
+      <a href="/#initiatives">Initiatives</a>
+      <a href="/#publications">Publications</a>
+      <a href="/about/">About</a>
+      <a class="nav-contact" href="/contact/">Get in touch ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="detail-hero">
+      <a class="back-link" href="/">← Home</a>
+      <p class="eyebrow">FIELDWORK &amp; DATA</p>
+      <h1>From aviary sound<br>to research data.</h1>
+      <p class="detail-lead">Recorders listen over days. Short audio clips and zoo population records help us test whether models can recognize species and estimate how many birds are present.</p>
+    </section>
+
+    <section class="data-process section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">HOW IT WORKS</p>
+          <h2>From recording to analysis.</h2>
+        </div>
+      </div>
+      <div class="process-grid">
+        <article>
+          <span>01</span>
+          <h3>Record</h3>
+          <p>Autonomous stereo recorders capture the natural soundscape inside an aviary, including overlapping calls and environmental noise. Recordings are continuous and at 48 kHz.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Prepare</h3>
+          <p>Long recordings are split into short clips. For BioDCASE Task 6, the released clips are approximately three seconds long at 48 kHz.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Compare</h3>
+          <p>Models analyze the audio. Known species inventories and population counts from the zoo curators let us compare predictions.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="data-detail">
+      <div class="data-photo">
+        <img src="/images/bird.png" alt="Azure-winged magpie on a branch" loading="lazy">
+      </div>
+      <div>
+        <p class="eyebrow">THE RECORDER</p>
+        <h2>Why two microphones?</h2>
+        <p>Our published recording setup uses a Frontier Labs BAR-LT autonomous recorder with two microphones. Stereo audio gives us two views of the same acoustic scene, which can support spatial analysis and help assess the consistency of detections.</p>
+        <p>Recorders collect sound without needing an observer in the aviary all day. They also capture the hard parts of real monitoring: silence, overlapping birds, visitors, and changing activity across hours.</p>
+      </div>
+    </section>
+
+    <section class="section data-download">
+      <p class="eyebrow">PUBLIC DATASET</p>
+      <h2>A subset released for BioDCASE</h2>
+      <p>BioDCASE 2026 makes a curated subset of our wider zoo recording collection available for the bird counting challenge. The full collection is larger and is not represented by this download.</p>
+      <div class="publication-links">
+        <a href="/biodcase26_birdcounts/">Challenge overview ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <a class="brand" href="/">ML<span class="brand-four">4</span>Biodiversity</a>
+      <p>Department of Advanced Computing Sciences<br>Maastricht University · The Netherlands</p>
+    </div>
+    <div>
+      <a href="/about/">About</a>
+      <a href="/contact/">Contact</a>
+      <a href="/#research">Research</a>
+    </div>
+    <small>© 2026 ML4Biodiversity</small>
+  </footer>
+</body>
+</html>

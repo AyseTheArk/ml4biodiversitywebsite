@@ -109,3 +109,184 @@ h1 em,h2 em,.hero-accent{font-style:normal;color:inherit;font-weight:inherit}
 .about-location .text-link{white-space:nowrap;color:#285a42}
 @media(max-width:900px){.about-location{margin-left:5.5%;margin-right:5.5%}.portrait-grid article{grid-template-columns:110px 1fr}.portrait-grid img{width:110px;height:135px}}
 @media(max-width:650px){.detail-hero{padding-top:25px;padding-bottom:35px}.detail-hero .back-link{margin-bottom:30px}.detail-hero h1{font-size:clamp(2.35rem,9vw,3rem)}.portrait-grid{grid-template-columns:1fr}.portrait-grid article{grid-template-columns:105px 1fr}.portrait-grid img{width:105px;height:125px}.about-location{margin:0 6% 65px;padding:27px;display:block}.about-location .text-link{display:inline-block;margin-top:22px}.detail-layout{padding-bottom:65px}}
+:root {
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    background: #111b17;
+    color: #e4ece6;
+  }
+
+  body {
+    background: #111b17;
+    color: #e4ece6;
+  }
+
+  .stats,
+  .initiatives,
+  .project,
+  .data-home,
+  .portrait-grid article,
+  .about-location,
+  .detail-aside,
+  .contact-primary,
+  .contact-address,
+  .process-grid article,
+  .link-panel a,
+  .schedule-group {
+    background: #1c2b23;
+  }
+
+  p,
+  .intro,
+  .detail-lead,
+  .project p,
+  .stats span,
+  .portrait-grid p,
+  .team-note,
+  .prose li,
+  .data-home p:not(.eyebrow),
+  .about-location p:not(.eyebrow),
+  .detail-aside p,
+  .contact-primary p,
+  .contact-address p,
+  .pub-grid p,
+  .talk p,
+  footer {
+    color: #b8c8bd;
+  }
+
+  .eyebrow,
+  .project-number,
+  .item-type,
+  .detail-facts span,
+  .aside-label,
+  .talk time,
+  .talk strong {
+    color: #99b3a2;
+  }
+
+  .text-link,
+  .team-link,
+  .back-link,
+  .aside-link,
+  .project a,
+  .project-status,
+  .publication-links a,
+  .contact-email a,
+  .contact-address > a,
+  .link-panel a,
+  footer .brand,
+  .data-home .text-link,
+  .about-location .text-link {
+    color: #b8d5bd;
+  }
+
+  .nav-contact,
+  .stats div,
+  .pub-grid article,
+  .initiative-list,
+  .initiative-list a,
+  .detail-facts,
+  .name-list,
+  .name-list div,
+  .talk {
+    border-color: #3b5143;
+  }
+
+  .project:hover,
+  .project:focus-within {
+    background: #2b503c;
+    color: #fff;
+  }
+
+  .project:hover p,
+  .project:focus-within p {
+    color: #e0ece3;
+  }
+
+  .button {
+    background: #b8d5bd;
+    color: #14261b;
+  }
+
+  .button:hover {
+    background: #d1e5d4;
+  }
+
+  .closing {
+    background: #203b2d;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root,
+  body {
+    background: #101413;
+    color: #e5e9e6;
+  }
+
+  .stats,
+  .initiatives,
+  .project,
+  .pub-grid article,
+  .data-home,
+  .portrait-grid article,
+  .detail-aside,
+  .contact-primary,
+  .contact-address,
+  .process-grid article,
+  .link-panel a,
+  .schedule-group {
+    background: #1a211e;
+  }
+
+  .project h3,
+  .pub-grid h3,
+  .portrait-grid h2,
+  .process-grid h3,
+  .contact-primary h2,
+  .contact-address h3 {
+    color: #e5e9e6;
+  }
+
+  .project p,
+  .pub-grid p,
+  .portrait-grid p,
+  .process-grid p {
+    color: #bbc5bf;
+  }
+
+  .eyebrow,
+  .project-number,
+  .item-type,
+  .project .project-status {
+    color: #a6b8ac;
+  }
+
+  .pub-grid article > span {
+    color: #c5b38f;
+  }
+
+  .pub-grid article {
+    border-color: #344139;
+  }
+
+  .project a,
+  .pub-grid a,
+  .team-link {
+    color: #bfd6c6;
+  }
+
+  .project:hover,
+  .project:focus-within {
+    background: #294334;
+  }
+
+  .project:hover h3,
+  .project:focus-within h3 {
+    color: #fff;
+  }
+}

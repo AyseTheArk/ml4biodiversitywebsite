@@ -4,7 +4,12 @@
     "title": "Population size estimation",
     "description": "A statistical framework connecting acoustic activity with population-level inference across different vocalization scenarios.",
     "status": "In progress",
-    "links": []
+    "links": [
+      {
+        "label": "BIOSIGNALS paper ↗",
+        "url": "https://www.researchgate.net/publication/401636797_Counting_without_Seeing_Toward_Acoustic_Population_Estimation_from_Unsupervised_Audio_Features"
+      }
+    ]
   },
   {
     "category": "02 / CHALLENGE",
