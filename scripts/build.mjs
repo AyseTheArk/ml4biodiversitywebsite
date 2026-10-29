@@ -1,6 +1,6 @@
 import { fileURLToPath } from 'node:url';
 import { readFile, writeFile, mkdir, cp, rm } from 'node:fs/promises';
-import { join } from 'node:path';
+import { join } from 'node:path'; 
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const read = async name => JSON.parse(await readFile(join(root, 'content', `${name}.json`), 'utf8'));
@@ -25,10 +25,32 @@ const team = (await read('team')).map(p => `
   </article>
 `).join('');
 
+const statsData = await read('stats');
+const formatCount = value => Number(value).toLocaleString('en-US');
+
+const stats = `
+  <div>
+    <strong>${formatCount(statsData.zoos)}</strong>
+    <span>Partner zoos across Europe</span>
+  </div>
+  <div>
+    <strong>${formatCount(statsData.individuals)}</strong>
+    <span>Individuals</span>
+  </div>
+  <div>
+    <strong>${formatCount(statsData.species)}</strong>
+    <span>Bird species</span>
+  </div>
+  <div>
+    <strong>${statsData.recordingHours === null ? 'Months' : formatCount(statsData.recordingHours)}</strong>
+    <span>${statsData.recordingHours === null ? 'of acoustic recordings' : 'Hours of acoustic recordings'}</span>
+  </div>
+`;
+
 await rm(join(root, 'dist'), {recursive:true, force:true});
 await cp(join(root, 'site'), join(root, 'dist'), {recursive:true});
 for (const [filename, replacements] of [
-  ['index.html', {PROJECTS:projects, EVENTS:events, PUBLICATIONS:publications}],
+  ['index.html', {PROJECTS:projects, EVENTS:events, PUBLICATIONS:publications, STATS:stats}],
   ['about/index.html', {TEAM:team}],
 ]) {
   let html = await readFile(join(root,'dist',filename),'utf8');
