@@ -1,4 +1,4 @@
-# ML4Biodiversity
+# ML4Biodiversity Website
 
 ## Requirements
 
